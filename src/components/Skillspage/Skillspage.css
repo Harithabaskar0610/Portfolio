@@ -1,0 +1,149 @@
+.skillscontainer{
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    justify-content: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.skillstitle{
+    color:#66FCF1;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.skillscontent{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+    color: white;
+}
+
+.skillsbox{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+    color: white;
+}
+
+.skillsgroup{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+    color: white;
+}
+
+.skillsdata{
+    display: flex;
+    column-gap: 0.5rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.skills.bx-badge-check{
+   font-size: 1rem;
+   color: white;
+}
+
+.skillsname{
+    line-height: 18px;
+    color: white;
+}
+
+.skillslevel{
+    color: white;
+    padding-left: 0px;
+}
+
+.sectiontitle{
+    font-size: 2rem;
+    color:#66FCF1;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.skillssubtitle{
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 445px;
+}
+
+.skillscontainer{
+    display: grid;
+    padding-top: 30px;
+    column-gap: 15rem;
+    color: white;
+    justify-content: center;
+}
+
+.skillscontent{
+    border: 3px solid #66FCF1;
+    color: white;
+    padding: 15px 20px;
+    flex: 1 0 20em;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px #66FCF1;
+    transition: transform 0.3s ease;
+}
+
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.skillssection{
+    background: linear-gradient(to right,black 100%, #434343 2%);
+    margin: 30px;
+}
+
+.skillscontent:hover{
+    border: 3px gray solid;
+    box-shadow: 1px 1px 1px gray;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 992px){
+    .skillscontainer{
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+
+    .skillssubtitle{
+        font-size: 1.7rem;
+        color: white;
+        text-align: center;
+        padding-top: 0px;
+        padding-left: 155px;
+    }
+};
+
+@media screen and (max-width: 460px){
+    .skillscontainer{
+        grid-template-columns: 1fr;}  
+        
+        .skillscontent{
+            padding: 1.5rem;
+        }
+
+        .skillssubtitle{
+            font-size: 1rem;
+            color: white;
+            text-align: center;
+            padding-top: 0px;
+            padding-left: 120px;
+            margin-left: 30px
+        }
+};
+
+
+    

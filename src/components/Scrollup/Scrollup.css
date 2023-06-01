@@ -1,0 +1,30 @@
+.button2{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px, solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    background: #66FCF1 ;
+    color: #222;
+    border-radius: 9px;
+  }
+
+  .button2:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color:#fff;
+    transition: 0.3s;
+  }
+
+  .up{
+    border: none;
+    margin-left: 1110px;
+    background-color: black;
+    color: white;
+  }
+
+  .up:hover{
+    color: #66FCF1;
+  }
+  
+  

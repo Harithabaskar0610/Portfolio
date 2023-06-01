@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;1,100;1,200;1,400&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+background: #000;
+}
+
+h1, 
+h4, 
+p, 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.button{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 1px, solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+  background: #66FCF1 ;
+  color: #222;
+  border-radius: 9px;
+}
+
+.button-light{
+  background: transparent;
+  color: #fff;
+  border: 0.2px #fff solid;
+}
+
+.button:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color:#fff;
+  transition: 0.3s;
+}
+
+&&::-webkit-scrollbar{
+  display:none
+}

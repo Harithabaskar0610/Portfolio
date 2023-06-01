@@ -1,0 +1,144 @@
+.navbar{
+    display: flex;
+    white-space: nowrap;
+    padding-right: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.navbar li :hover{
+    color: #66FCF1;
+}
+
+.navbar li{
+    padding: 0 1rem;
+    transition: all 0.3s ease 0s;
+}
+.navbar li a{
+    font-size: 1.2rem;
+    font-weight: 500 ;
+    color:white;
+}
+
+.navbar icon{
+    padding-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 rem;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-menu{
+    padding-top: 15px;
+}
+
+.cover{
+    background: transparent;
+}
+
+.logo :hover{
+    color:#66FCF1;
+}
+
+.cover{
+    width: 18%;
+    height: 18%;
+    background-position: left;
+}
+
+@media screen and (max-width: 1040px) {
+    .navbaractive {
+        top: 0;
+        flex-direction: column;
+        left: 0%;
+        height: 65%;
+        width: 100vw;
+        display: flex;
+        position: fixed;
+        transition: all 1s ease;
+        border-radius: 5px;
+        color: white; 
+        padding: 170px;
+        transition: all 0.3s ease;
+        padding-top: 10px;
+        white-space: nowrap;
+        cursor: pointer;
+        margin-top: 0;
+       background-color:black ;
+    }
+
+     .navbar icon{   
+        display: none;
+    }
+
+     .activelink:hover {
+        transition: all 0.2s ease;
+        color:#66FCF1;
+    }
+
+    .navbar{
+        display: none;
+        left: -100%;     
+    }
+
+    .hamburger{
+        padding: 10px;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        border: none;
+    }
+     .nav-menu{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          text-align: center;
+          color: white;
+          padding: 20px;
+          z-index: 10;
+          font-size: 20px;
+          margin-left: 20px;
+          margin-right: 10px;
+          align-content: center;
+          padding: 20px;
+          z-index: 5;
+          padding-bottom: 10px;
+    }
+
+    .activelink {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1px;  
+        font-size: 1.5rem;  
+    }   
+
+    .header{
+        display: flex;
+        padding: 1 rem;
+        width: 100%;
+        z-index: 10;
+        position: fixed;
+    }
+
+    .iconss{
+        display: none;
+    }
+    
+    .button-light{
+        display: none;
+    }
+}

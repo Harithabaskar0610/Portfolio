@@ -1,0 +1,49 @@
+/* Styles for the light mode*/
+body.light {
+background-color:  #ADD8E6;
+color: #66FCF1;
+}
+
+/* Styles for the dark mode */
+body.dark {
+background-color: black;
+color: white;
+}
+
+.design{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.design:hover{
+    color: #66FCF1;
+}
+
+.design1{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.design1:hover{
+    color: #66FCF1;
+}
+  
+ul{
+    display: flex;
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+     .design {
+        display: none;
+    }
+
+    .design1{
+        display: none;
+    }
+    
+}
+
+  
